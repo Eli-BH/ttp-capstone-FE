@@ -1,18 +1,17 @@
 import React from "react";
 import { Accordion, Card } from "react-bootstrap";
-import "./styling.css";
 const CategoriesView = (props) => {
   return (
     <div>
       <Accordion defaultActiveKey="1">
-        <Card className="catAcc">
+        <Card>
           <Accordion.Toggle as={Card.Header} eventKey="0">
-            <h4 className="catHead">Click me for categories!</h4>
+            <h4>Click me for categories!</h4>
           </Accordion.Toggle>
 
           <Accordion.Collapse eventKey="0">
             <Card.Body>
-              <div className="container-lg">
+              <div className="container">
                 <div className="d-flex flex-wrap justify-content-around">
                   <button
                     className="btn btn-dark m-1"
