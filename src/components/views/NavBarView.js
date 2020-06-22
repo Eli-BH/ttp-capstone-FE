@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Form, FormControl, Button, Image } from "react-bootstrap";
-import "./styling.css";
+import "./darkMode.css";
 const navbarDisplay = (props) => {
   if (props.user.id) {
     return <Nav.Link onClick={props.handleLogout}>Logout</Nav.Link>;
