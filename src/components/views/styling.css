@@ -200,3 +200,9 @@ body {
   max-width: 1250px;
   min-width: 200px;
 }
+
+.navImg {
+  max-width: 25px;
+  margin-right: 5px;
+  height: auto;
+}
