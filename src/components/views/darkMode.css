@@ -216,3 +216,8 @@ h5,
 h6 {
   color: white;
 }
+
+.accordBlock,
+.accCardBody {
+  background-color: #23273a;
+}

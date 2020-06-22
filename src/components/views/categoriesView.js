@@ -6,12 +6,16 @@ const CategoriesView = (props) => {
     <div>
       <Accordion defaultActiveKey="1">
         <Card className="catAcc">
-          <Accordion.Toggle as={Card.Header} eventKey="0">
+          <Accordion.Toggle
+            className="accordBlock"
+            as={Card.Header}
+            eventKey="0"
+          >
             <h4 className="catHead">Click me for categories!</h4>
           </Accordion.Toggle>
 
           <Accordion.Collapse eventKey="0">
-            <Card.Body>
+            <Card.Body className="accCardBody">
               <div className="container-lg">
                 <div className="d-flex flex-wrap justify-content-around">
                   <button
