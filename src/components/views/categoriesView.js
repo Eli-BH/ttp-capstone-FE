@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion, Card } from "react-bootstrap";
-import "./styling.css";
+
 const CategoriesView = (props) => {
   return (
     <div>
