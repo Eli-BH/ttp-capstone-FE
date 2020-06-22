@@ -138,9 +138,9 @@ body {
 
 .carText h4 {
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(245, 245, 245);
   font-size: 2em;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(3, 3, 3);
 }
 
 .catAcc {
@@ -205,4 +205,14 @@ body {
   max-width: 25px;
   margin-right: 5px;
   height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
 }

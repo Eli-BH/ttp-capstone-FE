@@ -3,7 +3,7 @@ import { searchAnimeThunk, logout } from '../../thunks';
 import NavBarView from '../views/NavBarView.js';
 import { connect } from 'react-redux';
 import { Redirect, withRouter } from 'react-router-dom';
-
+import {}
 class NavBarContainer extends Component {
 	constructor() {
 		super();
